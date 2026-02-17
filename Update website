@@ -1,135 +1,89 @@
-<!DOCTYPE html>
-<html lang="ha">
+
+<!DOCTYPE html><html lang="ha">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ABS Aluminum Pot</title>
-
-<style>
-body{
-  margin:0;
-  font-family: Arial, sans-serif;
-  background:#f4f4f4;
-}
-header{
-  background:#0a3d62;
-  color:white;
-  text-align:center;
-  padding:20px;
-}
-header img{
-  width:150px;
-  border-radius:10px;
-  margin-top:10px;
-}
-section{
-  padding:15px;
-}
-.box{
-  background:white;
-  padding:15px;
-  margin-bottom:15px;
-  border-radius:10px;
-  box-shadow:0 2px 6px rgba(0,0,0,0.1);
-}
-.products p{
-  border-bottom:1px solid #eee;
-  padding:6px 0;
-}
-.price{
-  color:green;
-  font-weight:bold;
-}
-.buy{
-  display:inline-block;
-  margin-top:10px;
-  background:#25D366;
-  color:white;
-  padding:10px 15px;
-  text-decoration:none;
-  border-radius:6px;
-  font-weight:bold;
-}
-footer{
-  background:#222;
-  color:white;
-  text-align:center;
-  padding:15px;
-}
-.whatsapp-chat{
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: #25D366;
-  color: white;
-  padding: 12px 18px;
-  border-radius: 30px;
-  font-weight: bold;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-  z-index: 1000;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ABS Aluminum Pots & Kitchen Wares</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; background:#f5f5f5; }
+    header { background:#1f6f8b; color:#fff; padding:25px; text-align:center; }
+    section { padding:20px; max-width:1000px; margin:auto; background:#fff; margin-top:15px; border-radius:8px; }
+    h2 { color:#1f6f8b; }
+    .products { display:grid; grid-template-columns: repeat(auto-fit,minmax(220px,1fr)); gap:15px; }
+    .card { border:1px solid #ddd; padding:15px; border-radius:10px; background:#fafafa; }
+    .price { color:#1f6f8b; font-weight:bold; font-size:18px; }
+    .btn { display:inline-block; padding:12px 18px; background:#1f6f8b; color:#fff; text-decoration:none; border-radius:6px; margin-top:10px; }
+    footer { background:#333; color:#fff; text-align:center; padding:15px; margin-top:25px; }
+  </style>
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#1f6f8b" />
+  <link rel="manifest" href="manifest.json" />
+  <meta name="theme-color" content="#1f6f8b" />
+  <style>
+    .wa-float{position:fixed;bottom:20px;right:20px;background:#25D366;color:#fff;padding:14px 16px;border-radius:50px;text-decoration:none;font-weight:bold;box-shadow:0 6px 14px rgba(0,0,0,.25);z-index:999}
+    .install-btn{display:none;position:fixed;bottom:90px;right:20px;background:#1f6f8b;color:#fff;padding:12px 16px;border-radius:10px;text-decoration:none;box-shadow:0 6px 14px rgba(0,0,0,.25);z-index:999}
+  </style>
 </head>
+<body><header>
+  <h1>ABS Aluminum Pots & Kitchen Wares</h1>
+  <p>Ingantattun tukwane da kayan girki na aluminum</p>
+</header><section style="display:flex;flex-wrap:wrap;align-items:center;gap:20px;">
+  <div style="flex:1;min-width:220px;text-align:center;">
+    <img src="manager.jpg" alt="Manager ABS Aluminum Pot" style="max-width:200px;border-radius:50%;box-shadow:0 4px 12px rgba(0,0,0,0.2);">
+    <h2 style="margin-bottom:5px;">Babangida Sulaiman</h2>
+    <p>Manager – ABS Aluminum Pot</p>
+  </div>
+  <div style="flex:1;min-width:260px;">
+    <h2>Calendar (Ranar Oda)</h2>
+    <iframe src="https://calendar.google.com/calendar/embed?mode=MONTH" style="border:0;width:100%;height:300px;border-radius:10px;" frameborder="0" scrolling="no"></iframe>
+    <p style="font-size:14px;color:#555;">Ana nuna ranakun oda da aiki</p>
+  </div>
+</section><section>
+  <h2>Tukwane (Aluminum Pots)</h2>
+  <div class="products">
+    <div class="card"><strong>Lamba 1</strong><p class="price">₦4,000</p><p>Ƙaramar tukunya – Small size pot</p></div>
+    <div class="card"><strong>Lamba 1.5</strong><p class="price">₦5,500</p><p>Matsakaici – Medium size</p></div>
+    <div class="card"><strong>Lamba 2</strong><p class="price">₦6,000</p><p>Mai sauƙin amfani – Easy to use</p></div>
+    <div class="card"><strong>Lamba 3</strong><p class="price">₦7,000</p><p>Ƙarfi da ɗorewa – Strong & durable</p></div>
+    <div class="card"><strong>Lamba 4</strong><p class="price">₦8,500</p><p>Iyali matsakaici – Medium family</p></div>
+    <div class="card"><strong>Lamba 5</strong><p class="price">₦10,500</p><p>Mai faɗi – Wide pot</p></div>
+    <div class="card"><strong>Lamba 6</strong><p class="price">₦12,000</p><p>Gida & kasuwa – Home & business</p></div>
+    <div class="card"><strong>Lamba 10</strong><p class="price">₦17,500</p><p>Babba – Large pot</p></div>
+    <div class="card"><strong>Lamba 12</strong><p class="price">₦20,000</p><p>Girki mai yawa – Bulk cooking</p></div>
+    <div class="card"><strong>Lamba 15</strong><p class="price">₦30,000</p><p>Bukukuwa – Events</p></div>
+    <div class="card"><strong>Lamba 20</strong><p class="price">₦43,000</p><p>Kasuwanci – Commercial use</p></div>
+    <div class="card"><strong>Lamba 30</strong><p class="price">₦67,000</p><p>Manyan girke-girke – Extra large</p></div>
+  </div>
+</section><section>
+  <h2>Sauran Kayayyaki (Other Products)</h2>
+  <div class="products">
+    <div class="card"><strong>Faranfai</strong><p class="price">₦2,500</p><p>Aluminum frying pan</p></div>
+    <div class="card"><strong>Turmi</strong><p class="price">₦8,000</p><p>Mortar & pestle</p></div>
+    <div class="card"><strong>Tanda mai gida (7)</strong><p class="price">₦3,500</p><p>7-hole egg pan</p></div>
+    <div class="card"><strong>Kujerar Aluminum</strong><p class="price">₦5,500</p><p>Strong aluminum stool</p></div>
+  </div>
+</section><section>
+  <h2>Oda & Tuntuɓa (Order & Contact)</h2>
+  <p>📞 Kira / WhatsApp: <strong>08161819245</strong></p>
+  <a class="btn" href="https://wa.me/2348161819245">Yi Oda ta WhatsApp</a>
+</section><footer>
+  <p>© 2026 ABS Aluminum Pots & Kitchen Wares</p>
+</footer><a class="wa-float" href="https://wa.me/2348161819245">WhatsApp</a> <a id="installBtn" class="install-btn" href="#">Install App</a>
 
-<body>
-
-<header>
-  <h1>ABS Aluminum Pot</h1>
-  <p>Tukwane da kayan girki masu ƙarfi da inganci</p>
-  <img src="manager.jpg" alt="Manager ABS Aluminum Pot">
-  <p><b>Manager: Babangida Sulaiman</b></p>
-</header>
-
-<section>
-
-<div class="box">
-  <h2>OPay Deposit</h2>
-  <p><b>Suna:</b> Babangida Sulaiman</p>
-  <p><b>OPay:</b> 08161819245</p>
-  <p>Za a iya yin deposit kafin a turo kaya</p>
-</div>
-
-<div class="box products">
-  <h2>Kayan da muke sayarwa</h2>
-
-  <p>Lamba 1 – <span class="price">₦4,000</span></p>
-  <p>Lamba 1.5 – <span class="price">₦5,500</span></p>
-  <p>Lamba 2 – <span class="price">₦6,000</span></p>
-  <p>Lamba 3 – <span class="price">₦7,000</span></p>
-  <p>Lamba 4 – <span class="price">₦8,500</span></p>
-  <p>Lamba 5 – <span class="price">₦10,500</span></p>
-  <p>Lamba 6 – <span class="price">₦12,000</span></p>
-  <p>Lamba 8 – <span class="price">₦15,500</span> (ba hotonta)</p>
-  <p>Lamba 10 – <span class="price">₦17,500</span></p>
-  <p>Lamba 12 – <span class="price">₦20,000</span></p>
-  <p>Lamba 15 – <span class="price">₦29,000</span></p>
-  <p>Lamba 20 – <span class="price">₦43,000</span></p>
-  <p>Lamba 30 – <span class="price">₦67,000</span></p>
-  <p>Lamba 50 – <span class="price">₦135,000</span></p>
-
-  <p>Turmi – <span class="price">₦8,000</span></p>
-  <p>Tanda – <span class="price">₦3,500</span></p>
-  <p>Kujera – <span class="price">₦5,500</span></p>
-  <p>Farantin girki – <span class="price">₦2,500</span></p>
-
-  <a class="buy" href="https://wa.me/2348161819245">
-    Yi Oda Ta WhatsApp
-  </a>
-</div>
-
-</section>
-
-<footer>
-  <p><b>ABS Aluminum Pot</b></p>
-  <p>📞 WhatsApp: 0816 181 9245</p>
-  <p>💳 OPay: 08161819245</p>
-  <p>© 2026 Duk haƙƙi na mu ne</p>
-</footer>
-
-<a href="https://wa.me/2348161819245" class="whatsapp-chat">
-  💬 Chat da Mu
-</a>
-
-</body>
+<script>
+  let deferredPrompt;
+  const btn = document.getElementById('installBtn');
+  window.addEventListener('beforeinstallprompt', (e) => {
+    e.preventDefault(); deferredPrompt = e; btn.style.display = 'block';
+  });
+  btn.addEventListener('click', async () => {
+    if (!deferredPrompt) return; deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    if (outcome === 'accepted') btn.style.display = 'none'; deferredPrompt = null;
+  });
+</script><script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js');
+  }
+</script></body>
 </html>
