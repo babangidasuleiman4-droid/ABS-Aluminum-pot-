@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ha">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABS Aluminum Pot</title>
+
+<style>
+body{
+  margin:0;
+  font-family: Arial, sans-serif;
+  background:#f4f4f4;
+}
+header{
+  background:#0a3d62;
+  color:white;
+  text-align:center;
+  padding:20px;
+}
+header img{
+  width:150px;
+  border-radius:10px;
+  margin-top:10px;
+}
+section{
+  padding:15px;
+}
+.box{
+  background:white;
+  padding:15px;
+  margin-bottom:15px;
+  border-radius:10px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.1);
+}
+.products p{
+  border-bottom:1px solid #eee;
+  padding:6px 0;
+}
+.price{
+  color:green;
+  font-weight:bold;
+}
+.buy{
+  display:inline-block;
+  margin-top:10px;
+  background:#25D366;
+  color:white;
+  padding:10px 15px;
+  text-decoration:none;
+  border-radius:6px;
+  font-weight:bold;
+}
+footer{
+  background:#222;
+  color:white;
+  text-align:center;
+  padding:15px;
+}
+.whatsapp-chat{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  z-index: 1000;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>ABS Aluminum Pot</h1>
+  <p>Tukwane da kayan girki masu ƙarfi da inganci</p>
+  <img src="manager.jpg" alt="Manager ABS Aluminum Pot">
+  <p><b>Manager: Babangida Sulaiman</b></p>
+</header>
+
+<section>
+
+<div class="box">
+  <h2>OPay Deposit</h2>
+  <p><b>Suna:</b> Babangida Sulaiman</p>
+  <p><b>OPay:</b> 08161819245</p>
+  <p>Za a iya yin deposit kafin a turo kaya</p>
+</div>
+
+<div class="box products">
+  <h2>Kayan da muke sayarwa</h2>
+
+  <p>Lamba 1 – <span class="price">₦4,000</span></p>
+  <p>Lamba 1.5 – <span class="price">₦5,500</span></p>
+  <p>Lamba 2 – <span class="price">₦6,000</span></p>
+  <p>Lamba 3 – <span class="price">₦7,000</span></p>
+  <p>Lamba 4 – <span class="price">₦8,500</span></p>
+  <p>Lamba 5 – <span class="price">₦10,500</span></p>
+  <p>Lamba 6 – <span class="price">₦12,000</span></p>
+  <p>Lamba 8 – <span class="price">₦15,500</span> (ba hotonta)</p>
+  <p>Lamba 10 – <span class="price">₦17,500</span></p>
+  <p>Lamba 12 – <span class="price">₦20,000</span></p>
+  <p>Lamba 15 – <span class="price">₦29,000</span></p>
+  <p>Lamba 20 – <span class="price">₦43,000</span></p>
+  <p>Lamba 30 – <span class="price">₦67,000</span></p>
+  <p>Lamba 50 – <span class="price">₦135,000</span></p>
+
+  <p>Turmi – <span class="price">₦8,000</span></p>
+  <p>Tanda – <span class="price">₦3,500</span></p>
+  <p>Kujera – <span class="price">₦5,500</span></p>
+  <p>Farantin girki – <span class="price">₦2,500</span></p>
+
+  <a class="buy" href="https://wa.me/2348161819245">
+    Yi Oda Ta WhatsApp
+  </a>
+</div>
+
+</section>
+
+<footer>
+  <p><b>ABS Aluminum Pot</b></p>
+  <p>📞 WhatsApp: 0816 181 9245</p>
+  <p>💳 OPay: 08161819245</p>
+  <p>© 2026 Duk haƙƙi na mu ne</p>
+</footer>
+
+<a href="https://wa.me/2348161819245" class="whatsapp-chat">
+  💬 Chat da Mu
+</a>
+
+</body>
+</html>
